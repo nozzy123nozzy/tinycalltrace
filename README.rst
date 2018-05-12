@@ -19,10 +19,10 @@ Usage
 
 Simply add following code in the file defined __main__,::
 
-        from tinycalltracer import TinyCallTracer
+        from tinycalltrace import TinyCallTrace
 
         if __name__ == '__main__':
-                TinyCallTracer()
+                TinyCallTrace()
 
 And run your scripts, call tree graphs generate in trace-0xXXXXXXX.txt file 
 in your current directory. Thease files are call tree graph of each threads.

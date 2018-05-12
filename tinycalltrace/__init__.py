@@ -41,7 +41,7 @@ class _TraceByAThread:
             self._f.close()
             print("{} is closed\n".format(self._fname))
 
-class TinyCallTracer:
+class TinyCallTrace:
     def __init__(self):
         self._trace_pool = dict()
         threading.settrace(self.trace_dispatch)
