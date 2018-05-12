@@ -47,4 +47,5 @@ setup(name="tinycalltrace",
                    'Programming Language :: Python :: 3',
                    ],
       keywords='call tree tracer vim fold',
+      python_requires='>3',
       )
