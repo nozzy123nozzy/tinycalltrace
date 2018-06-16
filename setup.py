@@ -31,7 +31,7 @@ with open(path.join(here, 'README.rst'), encoding='utf-8') as f:
     long_description = f.read()
 
 setup(name="tinycalltrace",
-      version = "1.0.0",
+      version = "1.0.2",
       description="Simple call tree graph generator suitable for viewing with vim fold",
       long_description=long_description,
       author="Takahide Nojima",

@@ -34,7 +34,7 @@ You can open thease file with vim, and simply type
 
 ::
 
-   :set foldmethod=mark
+   :set foldmethod=marker
 
 then you can see folded call tree graph. It is so helpful to understand
 call graph, easy to search specified function call/caller.

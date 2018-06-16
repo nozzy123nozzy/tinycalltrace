@@ -30,7 +30,7 @@ in your current directory. Thease files are call tree graph of each threads.
  You can open thease file with vim, and simply type 
 
 ```
-:set foldmethod=mark
+:set foldmethod=marker
 
 ```
 then you can see folded call tree graph. It is so helpful to understand 
